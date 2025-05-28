@@ -3,7 +3,7 @@
 
 A simple java implementation of the classic **Flappy Bird** game using java and swing
 
-![demo of the game](assets/demo.png)
+<img src="assets/demo.png" alt="demo of the game" width="500"/>
 
 ---
 
@@ -21,7 +21,7 @@ A simple java implementation of the classic **Flappy Bird** game using java and 
 
 ---
 
-## 🎯 Controls
+## controls
 - `UP ARROW`: Jump
 - `SPACE`: Jump / Restart
 
@@ -34,8 +34,8 @@ A simple java implementation of the classic **Flappy Bird** game using java and 
 git clone https://github.com/gautam-an/flappy-bird.git
 cd flappy-bird
 
-#### compile and run
-```bash
+//  compile and run
+
 javac -d bin src/*.java
 java -cp bin App
 
