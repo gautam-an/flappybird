@@ -1,27 +1,20 @@
 # flappy-bird
 
 
-A simple yet fun Java implementation of the classic **Flappy Bird** game using [Java](https://www.oracle.com/java/) and [Swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html).
+A simple java implementation of the classic **Flappy Bird** game using java and swing
+
+![demo of the game](assets/demo.png)
 
 ---
 
-## 🛠 Technologies Used
-- [Java](https://www.oracle.com/java/)
+## main technologies used
 - [Java Swing](https://docs.oracle.com/javase/8/docs/api/javax/swing/package-summary.html) (GUI Framework)
 - [Java AWT](https://docs.oracle.com/javase/8/docs/api/java/awt/package-summary.html) (Graphics & Event Handling)
 
 ---
 
-## 🎮 Game Features
-- Classic Flappy Bird mechanics
-- Real-time score tracking
-- Collision and game-over detection
-- Restart functionality
-
----
-
-## 🕹️ How to Play
-- Press `⬆️ UP ARROW` or `SPACE` to make the bird jump
+## how to play
+- Press `UP ARROW` or `SPACE` to make the bird jump
 - Avoid the pipes
 - Score increases by `0.5` each time you pass a pipe
 - After a game over, press `SPACE` to restart
@@ -29,23 +22,20 @@ A simple yet fun Java implementation of the classic **Flappy Bird** game using [
 ---
 
 ## 🎯 Controls
-- `⬆️ UP ARROW`: Jump
+- `UP ARROW`: Jump
 - `SPACE`: Jump / Restart
 
 ---
 
-## ⚙️ Game Mechanics
-- Gravity pulls the bird down
-- Pipes move continuously from right to left
-- Pipe height is randomized for variability
-- Collision detection for pipes and ground
-- Score increases as bird passes pipes
+## setup & running the game
 
----
-
-## 📦 Setup and Running the Game
-
-### 🔁 Clone the Repository
+#### clone the repo
 ```bash
 git clone https://github.com/gautam-an/flappy-bird.git
 cd flappy-bird
+
+#### compile and run
+```bash
+javac -d bin src/*.java
+java -cp bin App
+
