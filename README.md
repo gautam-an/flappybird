@@ -31,8 +31,8 @@ A simple java implementation of the classic **Flappy Bird** game using java and 
 
 #### clone the repo
 ```bash
-git clone https://github.com/gautam-an/flappy-bird.git
-cd flappy-bird
+git clone https://github.com/gautam-an/flappybird.git
+cd flappybird
 
 //  compile and run
 
